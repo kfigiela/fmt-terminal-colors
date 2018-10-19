@@ -1,5 +1,5 @@
 name:                fmt-terminal-colors
-version:             0.1.0.0
+version:             0.1.0.1
 github:              "kfigiela/fmt-terminal-colors"
 license:             BSD3
 author:              "Kamil Figiela"
@@ -17,7 +17,7 @@ category:            Text
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/kfigiela/fmt-terminal-colors#readme>
+description:         Extra formatters for fmt formatting library for colorful terminal output.
 
 dependencies:
 - base >= 4.7 && < 5
