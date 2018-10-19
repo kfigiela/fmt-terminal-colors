@@ -5,6 +5,7 @@ module Fmt.Terminal
     ) where
 
 import           Fmt                       (Buildable, Builder, build)
+import           Data.Monoid               ((<>))
 import qualified System.Console.ANSI       as ANSI
 import           System.Console.ANSI.Types as ANSIColors (Color (..))
 
